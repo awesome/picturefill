@@ -57,7 +57,7 @@
 						
 						picSwitch.href = "#";
 						picSwitch.innerHTML = ( prefHD ? "S" : "H" ) + "D";
-						picSwitch.title = "Switch image to " + ( prefHD ? "Standard" : "High" ) + "Definition";
+						picSwitch.title = "Switch image to " + ( prefHD ? "Standard" : "High" ) + " Definition";
 						picSwitch.className = "pf-pref pf-pref-" + ( prefHD ? "standard" : "high" );
 						ps[ i ].appendChild( picSwitch );
 						picSwitch.onmouseup = function(){
